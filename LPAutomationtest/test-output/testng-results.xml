@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Chrome browser launched Successfully!]]>
+    </line>
+    <line>
+      <![CDATA[Application has been launched successfully!]]>
+    </line>
+    <line>
+      <![CDATA[User logged in to the Application!]]>
+    </line>
+    <line>
+      <![CDATA[Chrome browser launched Successfully!]]>
+    </line>
+    <line>
+      <![CDATA[Application has been launched successfully!]]>
+    </line>
+    <line>
+      <![CDATA[User logged in to the Application!]]>
+    </line>
+    <line>
+      <![CDATA[Recurring start date in Schedule Recurring Pop up is : ]]>
+    </line>
+    <line>
+      <![CDATA[Chrome browser launched Successfully!]]>
+    </line>
+    <line>
+      <![CDATA[Application has been launched successfully!]]>
+    </line>
+    <line>
+      <![CDATA[User logged in to the Application!]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-03-09T21:54:51 IST" name="Default suite" finished-at="2021-03-09T21:56:23 IST" duration-ms="92260">
+    <groups>
+    </groups>
+    <test started-at="2021-03-09T21:54:51 IST" name="Default test" finished-at="2021-03-09T21:56:23 IST" duration-ms="92260">
+      <class name="com.lp.qa.testcases.RecurringBillingTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.lp.qa.testcases.RecurringBillingTests@3aefe5e5]" started-at="2021-03-09T21:54:51 IST" name="setup" finished-at="2021-03-09T21:54:51 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC01_RB_CardEntryByProvider_transaction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lp.qa.testcases.RecurringBillingTests@3aefe5e5]" started-at="2021-03-09T21:54:51 IST" name="TC01_RB_CardEntryByProvider_transaction" data-provider="cardEntryByProvider" finished-at="2021-03-09T21:55:08 IST" duration-ms="16979" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rec Card Entry by Provider]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RB Provider 600 ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[John  Smith]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9548406651]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Monthly]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[2021-03-09]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[5473500000000014]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[2022]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Hollywood]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Abum]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Washington]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[54667]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome browser launched Successfully!]]>
+            </line>
+            <line>
+              <![CDATA[Application has been launched successfully!]]>
+            </line>
+            <line>
+              <![CDATA[User logged in to the Application!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC01_RB_CardEntryByProvider_transaction -->
+        <test-method signature="TC04_RB_VerifyStartDateInScheduleRecurringPopUp()[pri:0, instance:com.lp.qa.testcases.RecurringBillingTests@3aefe5e5]" started-at="2021-03-09T21:55:08 IST" name="TC04_RB_VerifyStartDateInScheduleRecurringPopUp" finished-at="2021-03-09T21:55:36 IST" duration-ms="27295" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.lp.qa.testcases.RecurringBillingTests.TC04_RB_VerifyStartDateInScheduleRecurringPopUp(RecurringBillingTests.java:149)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome browser launched Successfully!]]>
+            </line>
+            <line>
+              <![CDATA[Application has been launched successfully!]]>
+            </line>
+            <line>
+              <![CDATA[User logged in to the Application!]]>
+            </line>
+            <line>
+              <![CDATA[Recurring start date in Schedule Recurring Pop up is : ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC04_RB_VerifyStartDateInScheduleRecurringPopUp -->
+        <test-method signature="TC05_VerifyEndDateInScheduleRecurringPopUp()[pri:0, instance:com.lp.qa.testcases.RecurringBillingTests@3aefe5e5]" started-at="2021-03-09T21:55:36 IST" name="TC05_VerifyEndDateInScheduleRecurringPopUp" finished-at="2021-03-09T21:56:22 IST" duration-ms="46446" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='edate'] (tried for 30 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='edate'] (tried for 30 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at com.lp.qa.pages.RecurringBillingPage.verifyEndDateInScheduleRecurringPopUp(RecurringBillingPage.java:329)
+at com.lp.qa.testcases.RecurringBillingTests.TC05_VerifyEndDateInScheduleRecurringPopUp(RecurringBillingTests.java:161)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='edate']"}
+  (Session info: chrome=88.0.4324.190)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2K3DEDH', ip: '10.100.10.231', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\sys\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:62067}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ea5b9ee11a35c3585dba987c2eb47bc8
+*** Element info: {Using=xpath, value=//input[@id='edate']}
+at jdk.internal.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome browser launched Successfully!]]>
+            </line>
+            <line>
+              <![CDATA[Application has been launched successfully!]]>
+            </line>
+            <line>
+              <![CDATA[User logged in to the Application!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC05_VerifyEndDateInScheduleRecurringPopUp -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.lp.qa.testcases.RecurringBillingTests@3aefe5e5]" started-at="2021-03-09T21:56:22 IST" name="closeBrowser" finished-at="2021-03-09T21:56:23 IST" duration-ms="839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.lp.qa.testcases.RecurringBillingTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

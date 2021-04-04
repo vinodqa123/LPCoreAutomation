@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="LP Poral Test Automation">
+
+  	<listeners> 
+		<listener class-name="com.lp.qa.base.TestBase"/> 
+	</listeners>  
+
+	<test name="LP Test Cases">
+		<classes>
+	 		<class name="com.lp.qa.testcases.ManualEntryPaymentsTest"></class>  
+	 		<class name="com.lp.qa.testcases.ContactlessPaymentTests"></class>
+	 		<class name="com.lp.qa.testcases.PatientResponsiblityTests"></class>  
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [LP Poral Test Automation]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.lp.qa.base.TestBase"/>
+  </listeners>
+  <test thread-count="5" name="LP Test Cases(failed)">
+    <classes>
+      <class name="com.lp.qa.testcases.ContactlessPaymentTests">
+        <methods>
+          <include name="TC12_CA_verifyContactlessPaymentPatientNameInTransReport"/>
+          <include name="TC19_CA_ExportExcelOfCommReport"/>
+          <include name="closeBrowser"/>
+          <include name="TC20_CA_ViewTransactionsIconInCommReport"/>
+          <include name="TC11_CA_verifyContactlessPaymentAmountInTransReport"/>
+          <include name="TC13_CA_verifyTransactionUserLoginIDInTransReport"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.lp.qa.testcases.ContactlessPaymentTests -->
+      <class name="com.lp.qa.testcases.PatientResponsiblityTests">
+        <methods>
+          <include name="TC17_PR_verifyPRWithoutInsTransactionAmount"/>
+          <include name="closeBrowser"/>
+          <include name="TC06_PR_verifyPRWithInsAmountInCommReport"/>
+          <include name="setup"/>
+          <include name="TC13_PR_VerifyPatientResponsibilityWithoutInsurance"/>
+          <include name="TC03_PR_VerifyCollectCardPageforNewPatient"/>
+          <include name="TC02_PR_VerifyAmountInCommReport"/>
+        </methods>
+      </class> <!-- com.lp.qa.testcases.PatientResponsiblityTests -->
+    </classes>
+  </test> <!-- LP Test Cases(failed) -->
+</suite> <!-- Failed suite [LP Poral Test Automation] -->
