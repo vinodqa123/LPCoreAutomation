@@ -8,24 +8,83 @@
     <classes>
       <class name="com.lp.qa.testcases.ContactlessPaymentTests">
         <methods>
+          <include name="TC02_CA_VerifyContaclessPatientAmountInCommReport"/>
+          <include name="TC03_CA_VerifyUserLoginIDInCommReport"/>
+          <include name="TC16_CA_verifyRefundVoidForContactlessPaymentTransaction"/>
+          <include name="TC01_CA_ContactlessPatientPaymentForm"/>
+          <include name="TC14_CA_verifyContactlessPaymentTransCardNumberInTransReprot"/>
+          <include name="TC07_CA_InitiateContactLessPaymentWithCollectCardLink"/>
+          <include name="TC20_CA_ViewTransactionsIconInCommReport"/>
+          <include name="TC04_CA_verifyProviderNameInCommReport"/>
+          <include name="TC11_CA_verifyContactlessPaymentAmountInTransReport"/>
+          <include name="TC17_CA_verifyAuthorizeVoidForContactlessPaymentTransaction"/>
+          <include name="setup"/>
+          <include name="TC15_CA_verifyRefundForContactlessPaymentTransaction"/>
           <include name="TC12_CA_verifyContactlessPaymentPatientNameInTransReport"/>
           <include name="TC19_CA_ExportExcelOfCommReport"/>
           <include name="closeBrowser"/>
-          <include name="TC20_CA_ViewTransactionsIconInCommReport"/>
-          <include name="TC11_CA_verifyContactlessPaymentAmountInTransReport"/>
+          <include name="TC18_CA_printReportOfCommReport"/>
+          <include name="TC08_CA_verifyContactLessPaymentTransStatusInTransactionReport"/>
           <include name="TC13_CA_verifyTransactionUserLoginIDInTransReport"/>
-          <include name="setup"/>
+          <include name="TC05_CA_verifyResendSMSEmailFunInCommReport"/>
+          <include name="TC06_CA_VerifyContaclessPaymentPaymentlink"/>
         </methods>
       </class> <!-- com.lp.qa.testcases.ContactlessPaymentTests -->
+      <class name="com.lp.qa.testcases.ManualEntryPaymentsTest">
+        <methods>
+          <include name="TC04_ME_verifyTransactionPatientName"/>
+          <include name="TC09_ME_verifyTransactionID"/>
+          <include name="TC15_ME_verifySettlementReprot"/>
+          <include name="TC14_ME_verifyGridRecieptIcon"/>
+          <include name="TC07_ME_verifyTransactionUserLoginID"/>
+          <include name="TC10_ME_verifyRefund"/>
+          <include name="TC08_ME_verifyTransactionCardNumber"/>
+          <include name="setup"/>
+          <include name="TC03_ME_verifyTransactionAmount"/>
+          <include name="TC01_ME_Transaction"/>
+          <include name="TC13_ME_verifyGridExportIcon"/>
+          <include name="TC12_ME_verifyAuthVoid"/>
+          <include name="closeBrowser"/>
+          <include name="TC02_ME_verifyTransactionStatus"/>
+          <include name="TC11_ME_RefundVoid"/>
+        </methods>
+      </class> <!-- com.lp.qa.testcases.ManualEntryPaymentsTest -->
+      <class name="com.lp.qa.testcases.RecurringBillingTests">
+        <methods>
+          <include name="TC16_RB_CardEntryByPatient_verifyTransactionStatus"/>
+          <include name="TC15_RB_CardEntryByPatient_RunTransactionReport"/>
+          <include name="TC01_RB_CardEntryByProvider_transaction" invocation-numbers="0"/>
+          <include name="TC05_VerifyEndDateInScheduleRecurringPopUp"/>
+          <include name="closeBrowser"/>
+          <include name="TC18_RB_CardEntryByPatient_verifyTransactionPatientName"/>
+          <include name="TC04_RB_VerifyStartDateInScheduleRecurringPopUp"/>
+          <include name="TC19_RB_CardEntryByPatient_verifyTransactionUserLoginID"/>
+          <include name="setup"/>
+          <include name="TC17_RB_CardEntryByPatient_verifyTransactionAmount"/>
+        </methods>
+      </class> <!-- com.lp.qa.testcases.RecurringBillingTests -->
       <class name="com.lp.qa.testcases.PatientResponsiblityTests">
         <methods>
-          <include name="TC17_PR_verifyPRWithoutInsTransactionAmount"/>
           <include name="closeBrowser"/>
+          <include name="TC11_PR_verifyVoidfunctforPatientRespTransaction"/>
+          <include name="TC07_PR_verifyPRWithInsPatientNameInCommReport"/>
           <include name="TC06_PR_verifyPRWithInsAmountInCommReport"/>
-          <include name="setup"/>
+          <include name="TC01_PR_VerifyPatRespWithInsurancePayment"/>
           <include name="TC13_PR_VerifyPatientResponsibilityWithoutInsurance"/>
-          <include name="TC03_PR_VerifyCollectCardPageforNewPatient"/>
+          <include name="TC21_PR_verifyPRWithoutInsTransactionRefundVoid"/>
+          <include name="TC22_PR_verifyPRwithoutInsTransactionAuthVoid"/>
           <include name="TC02_PR_VerifyAmountInCommReport"/>
+          <include name="TC17_PR_verifyPRWithoutInsTransactionAmount"/>
+          <include name="TC08_PR_verifyPRWithInsLoginIDInCommReport"/>
+          <include name="TC12_PR_PatientRespFormWithoutInsurance"/>
+          <include name="TC09_PR_verifyRefundFuctionalityForPatientResponTransaction"/>
+          <include name="TC18_PR_verifyPRWithoutInsTransactionPatientName"/>
+          <include name="setup"/>
+          <include name="TC19_PR_verifyPRWithoutInsTransactionUserLoginID"/>
+          <include name="TC03_PR_VerifyCollectCardPageforNewPatient"/>
+          <include name="TC10_PR_verifyRefundVoidFunctForPatRespTransaction"/>
+          <include name="TC15_PR_verifyPRWithoutInsTransactionStatus"/>
+          <include name="TC20_PR_verifyPRWithoutInsTransactionRefund"/>
         </methods>
       </class> <!-- com.lp.qa.testcases.PatientResponsiblityTests -->
     </classes>
