@@ -268,7 +268,7 @@ public class RecurringBillingPage extends TestBase {
 			Thread.sleep(2000);
 			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[@id='btsubmit']")));
 			ConfirmBtn.click();
-	/*		
+		
 			Thread.sleep(2000);
 			wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("CardNumber1")));			
 			cardNumber.sendKeys(CardNumber);
@@ -300,7 +300,7 @@ public class RecurringBillingPage extends TestBase {
 				Thread.sleep(3000);
 				backBtn.click();				
 			}	
-		*/
+		
 		}	
 		
 		
@@ -340,20 +340,6 @@ public class RecurringBillingPage extends TestBase {
 		return totalAmountDue;
 				
 	}
-	public ArrayList<String> VerifyRecurringCollectingDatesInScheduleRecurringPopUp() {
-		List<WebElement> totalCollectingDates=driver.findElements(By.xpath("/html[1]/body[1]/div[4]/div[6]/div[1]/div[3]/form[1]/div[3]/div[1]/div[2]/div[5]/div[2]/ul[1]/li"));
-		int totalCollectingDates1=totalCollectingDates.size();
-		System.out.println("Total records"+totalCollectingDates1);	
-		ArrayList<String> a=new ArrayList<String>();
-		for (int i=1; i<=totalCollectingDates.size();i++){
-			WebElement recdate=driver.findElement(By.xpath("/html[1]/body[1]/div[4]/div[6]/div[1]/div[3]/form[1]/div[3]/div[1]/div[2]/div[5]/div[2]/ul[1]/li["+i+"]"));
-			String recCollectingDate=recdate.getText();
-			a.add(recCollectingDate);
-		}
-		return a ;		
-		
-	}
-	
 
 	
 }

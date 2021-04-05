@@ -55,7 +55,7 @@ public class TestBase implements IReporter {
 	public static void browserInitialization() throws InterruptedException {
 		String browsername=prop.getProperty("browser");
 		if(browsername.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver","D:\\Vinod\\Eclipse\\Chrome\\chromedriver_win32\\chromedriver.exe"); 
+			System.setProperty("webdriver.chrome.driver","D:\\Vinod\\Eclipse\\Chrome\\chromedriver.exe"); 
 			driver=new ChromeDriver();
 			Thread.sleep(3000);
 			Reporter.log("Chrome browser launched Successfully!");	

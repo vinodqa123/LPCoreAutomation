@@ -101,7 +101,7 @@ public class RecurringBillingTests extends TestBase{
 		this.City=City;
 		this.State=State;
 		this.ZipCode=ZipCode;	
-	//	recBillingPage.recCardEntryByProvider(patientName1, phone1, email1, RefNo, RecAmt, FrequencyType, toalPayments1, recDate, CardNumber, Exp_Month, Exp_Year, Cvv, Address, City, State, ZipCode);
+		recBillingPage.recCardEntryByProvider(patientName1, phone1, email1, RefNo, RecAmt, FrequencyType, toalPayments1, recDate, CardNumber, Exp_Month, Exp_Year, Cvv, Address, City, State, ZipCode);
 			
 		if (CardNumber.length() > 4) 
  		{
@@ -309,7 +309,7 @@ public class RecurringBillingTests extends TestBase{
 		}
 				
 	}
-	
+	*/
 	@Test()
 	public void TC15_RB_CardEntryByPatient_RunTransactionReport() throws InterruptedException, AWTException, IOException {
 		browserInitialization();
@@ -341,7 +341,7 @@ public class RecurringBillingTests extends TestBase{
 	public void TC19_RB_CardEntryByPatient_verifyTransactionUserLoginID() {
 		transactionReportPage.verifyuserLoginID(refNo);
 	}	
-		*/
+		
 			
 	@AfterClass
 	public void closeBrowser() {

@@ -3,14 +3,30 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.lp.qa.testcases.RecurringBillingTests">
+      <class name="com.lp.qa.testcases.ContactlessPaymentTests">
         <methods>
-          <include name="TC05_VerifyEndDateInScheduleRecurringPopUp"/>
-          <include name="closeBrowser"/>
-          <include name="TC04_RB_VerifyStartDateInScheduleRecurringPopUp"/>
+          <include name="TC02_CA_VerifyContaclessPatientAmountInCommReport"/>
+          <include name="TC03_CA_VerifyUserLoginIDInCommReport"/>
+          <include name="TC16_CA_verifyRefundVoidForContactlessPaymentTransaction"/>
+          <include name="TC01_CA_ContactlessPatientPaymentForm"/>
+          <include name="TC14_CA_verifyContactlessPaymentTransCardNumberInTransReprot"/>
+          <include name="TC07_CA_InitiateContactLessPaymentWithCollectCardLink"/>
+          <include name="TC20_CA_ViewTransactionsIconInCommReport"/>
+          <include name="TC04_CA_verifyProviderNameInCommReport"/>
+          <include name="TC11_CA_verifyContactlessPaymentAmountInTransReport"/>
+          <include name="TC17_CA_verifyAuthorizeVoidForContactlessPaymentTransaction"/>
           <include name="setup"/>
+          <include name="TC15_CA_verifyRefundForContactlessPaymentTransaction"/>
+          <include name="TC12_CA_verifyContactlessPaymentPatientNameInTransReport"/>
+          <include name="TC19_CA_ExportExcelOfCommReport"/>
+          <include name="closeBrowser"/>
+          <include name="TC18_CA_printReportOfCommReport"/>
+          <include name="TC08_CA_verifyContactLessPaymentTransStatusInTransactionReport"/>
+          <include name="TC13_CA_verifyTransactionUserLoginIDInTransReport"/>
+          <include name="TC05_CA_verifyResendSMSEmailFunInCommReport"/>
+          <include name="TC06_CA_VerifyContaclessPaymentPaymentlink"/>
         </methods>
-      </class> <!-- com.lp.qa.testcases.RecurringBillingTests -->
+      </class> <!-- com.lp.qa.testcases.ContactlessPaymentTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

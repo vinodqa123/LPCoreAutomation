@@ -11,6 +11,7 @@
 	 		<class name="com.lp.qa.testcases.ManualEntryPaymentsTest"></class>  
 	 		<class name="com.lp.qa.testcases.ContactlessPaymentTests"></class>
 	 		<class name="com.lp.qa.testcases.PatientResponsiblityTests"></class>  
+	 		<class name="com.lp.qa.testcases.RecurringBillingTests"></class>
 		</classes>
 	</test>
 </suite>

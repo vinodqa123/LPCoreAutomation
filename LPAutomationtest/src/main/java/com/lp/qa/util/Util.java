@@ -25,7 +25,7 @@ public class Util {
 		    }
 		   	    
 	}
-	public static void getRecDate(String RecDate) {	
+	public static void getRecDate(String RecDate) {	// 2021-04-05
 		    String date1=RecDate.substring(8,10);
 		    String month=RecDate.substring(5,7);
 		    String yr=RecDate.substring(0,4);
